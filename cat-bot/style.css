@@ -1,3 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto+Mono:wght@700&display=swap');
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgba(46, 199, 229, 0.809);
+}
+
+#header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
 #logo {
+  height: 65px;
+}
+
+#nav-container {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#main-container {
+  border-top: 0.4px solid rgb(0, 0, 0);
+  margin-bottom: 48px;
+}
+
+#top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#title {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+#subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+#btn {
+  background-color: white;
+  width: 180px;
   height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#btn:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.right {
+  height: 430px;
+}
+
+#bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+#bottom-title {
+  border-top: 0.4px solid rgb(0, 0, 0);
+  padding-top: 48px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#footer-container {
+  padding: 32px;
+  background-color: black;
+}
+
+#footer-img {
+  height: 32px;
+  display: block;
+  margin: 0 auto;
 }
